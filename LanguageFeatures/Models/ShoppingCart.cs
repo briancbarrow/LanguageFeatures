@@ -15,10 +15,10 @@ namespace LanguageFeatures.Models
             return Products.GetEnumerator();
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
+        //IEnumerator IEnumerable.GetEnumerator()
+        //{
+        //    return GetEnumerator();
+        //}
 
         IEnumerator IEnumerable.GetEnumerator()
         {
